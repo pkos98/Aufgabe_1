@@ -3,21 +3,21 @@ public class Playboard {
     public static final int COLUMNS = 7;
     public static final int ROWS = 6;
     private final String FIELD_SEPARATOR = "|";
-    private Token[][] boardMatrix = new Token[COLUMNS][ROWS]; // so boardMatrix[0].length = COLUMNS
+    private TokenPlace[][] boardMatrix = new TokenPlace[COLUMNS][ROWS]; // so boardMatrix[0].length = COLUMNS
 
-    public Token[][] getBoardMatrix(){
+    public TokenPlace[][] getBoardMatrix(){
         return boardMatrix;
     }
 
     public Playboard() {
         for (int col = 0; col < COLUMNS; col++) {
             for (int row = 0; row < ROWS; row++) {
-                boardMatrix[col][row] = new Token(col, row);
+                boardMatrix[col][row] = new TokenPlace(col, row);
             }
         }
     }
 
-    public Token addToken(int column, Player player) throws ColumnFullException {
+    public TokenPlace addToken(int column, Player player) throws ColumnFullException {
         int row = getNextEmptyRow(column);
         if (row == -1)
             throw new ColumnFullException(column);
@@ -44,7 +44,7 @@ public class Playboard {
 
         for (int row = 0; row < ROWS; row++) {
             for (int col = 0; col < COLUMNS; col++) {
-                Token iterToken = boardMatrix[col][row];
+                TokenPlace iterToken = boardMatrix[col][row];
                 result += iterToken + FIELD_SEPARATOR;
             }
             result += newLine;
@@ -54,8 +54,8 @@ public class Playboard {
 
     private int getNextEmptyRow(int col) {
         for (int row = Playboard.ROWS - 1; row >= 0; row--){
-            Token iterToken = boardMatrix[col][row];
-            if (iterToken.isEmpty())
+            TokenPlace iterTokenPlace = boardMatrix[col][row];
+            if (iterTokenPlace.isEmpty())
                 return row;
         }
         return -1;

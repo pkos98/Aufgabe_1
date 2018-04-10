@@ -32,7 +32,7 @@ public class Connect4 {
                 i = 0;
             Player currentPlayer = players[i];
             int columnInput = -1;
-            Token newToken;
+            TokenPlace newTokenPlace;
             while(true){
 
                 // Get valid input, if there is no valid input
@@ -40,7 +40,7 @@ public class Connect4 {
                     columnInput = inputController.getColumnInput(currentPlayer) - 1;
 
                 try {
-                    newToken = playboard.addToken(columnInput, currentPlayer);
+                    newTokenPlace = playboard.addToken(columnInput, currentPlayer);
                     break;
                 } catch (ColumnFullException e) {
                     System.out.println(e.getMessage());
@@ -49,7 +49,7 @@ public class Connect4 {
                 }
             }
             System.out.print(playboard);
-            if (winDetector.AddToken(newToken))
+            if (winDetector.AddToken(newTokenPlace))
                 GameFinishedEvent(currentPlayer);
         }
     }

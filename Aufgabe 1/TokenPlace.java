@@ -1,4 +1,4 @@
-public class Token {
+public class TokenPlace {
     private int column;
     private int row;
     private Player player;
@@ -17,7 +17,7 @@ public class Token {
         this.player = player;
     }
 
-    public Token(int column, int row){
+    public TokenPlace(int column, int row){
         this.column = column;
         this.row = row;
     }

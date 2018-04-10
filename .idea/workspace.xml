@@ -18,11 +18,12 @@
       <file leaf-file-name="InputController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aufgabe 1/InputController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="304">
+              <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getPlayers#0;class#InputController#0" />
+                <element signature="method#getColumnInput#0;class#InputController#0" />
                 <element signature="method#validatePlayerName#0;class#InputController#0" />
                 <element signature="method#validateColumnInput#0;class#InputController#0" />
                 <element signature="method#readLine#0;class#InputController#0" />
@@ -37,6 +38,7 @@
             <state relative-caret-position="112">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
+                <element signature="method#Player#0;class#Player#0" />
                 <element signature="method#toString#0;class#Player#0" />
               </folding>
             </state>
@@ -62,9 +64,10 @@
       <file leaf-file-name="Playboard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aufgabe 1/Playboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="144">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
+                <element signature="method#Playboard#0;class#Playboard#0" />
                 <element signature="method#addToken#0;class#Playboard#0" />
                 <element signature="method#reset#0;class#Playboard#0" />
                 <element signature="method#toString#0;class#Playboard#0" />
@@ -77,15 +80,22 @@
       <file leaf-file-name="IncrementalWinDetector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aufgabe 1/IncrementalWinDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+            <state relative-caret-position="309">
+              <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-                <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
                 <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-                <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenPlace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aufgabe 1/TokenPlace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -121,8 +131,9 @@
         <option value="$PROJECT_DIR$/Aufgabe 1/ColumnFullException.java" />
         <option value="$PROJECT_DIR$/Aufgabe 1/Connect4.java" />
         <option value="$PROJECT_DIR$/Aufgabe 1/IWinDetector.java" />
-        <option value="$PROJECT_DIR$/Aufgabe 1/Token.java" />
         <option value="$PROJECT_DIR$/Aufgabe 1/Playboard.java" />
+        <option value="$PROJECT_DIR$/Aufgabe 1/Token.java" />
+        <option value="$PROJECT_DIR$/Aufgabe 1/TokenPlace.java" />
         <option value="$PROJECT_DIR$/Aufgabe 1/IncrementalWinDetector.java" />
       </list>
     </option>
@@ -138,15 +149,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Aufgabe 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aufgabe 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe 1" type="462c0819:PsiDirectoryNode" />
+              <item name="Aufgabe 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ic&#9;FILE&#9;file://C:/Users/Patrick.DESKTOP-0HO1KVC/Downloads/Aufgabe 1/Aufgabe 1/InputController.java&#10;playb&#9;PSI&#9;JAVA://Playboard" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Software_Engineering_II/Telefonbuch" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -209,11 +235,13 @@
       <workItem from="1523034933370" duration="204000" />
       <workItem from="1523102409921" duration="86000" />
       <workItem from="1523348903015" duration="699000" />
+      <workItem from="1523349750852" duration="8658000" />
+      <workItem from="1523363168942" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53777000" />
+    <option name="totallyTimeSpent" value="62450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -221,15 +249,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073206" side_tool="true" weight="0.66931635" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.29372936" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.29252782" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290938" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965278" weight="0.24304539" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965278" visible="true" weight="0.24304539" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.50236964" side_tool="true" weight="0.24304539" />
       <window_info id="UI Designer" order="4" />
@@ -242,6 +269,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -252,7 +280,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="76" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -284,14 +312,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Aufgabe 1/IncrementalWinDetector.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
+            <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aufgabe 1/IncrementalWinDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
@@ -303,6 +341,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -315,6 +354,7 @@
         <state relative-caret-position="144">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
+            <element signature="method#Player#0;class#Player#0" />
             <element signature="method#toString#0;class#Player#0" />
           </folding>
         </state>
@@ -339,6 +379,7 @@
         <state relative-caret-position="112">
           <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -354,9 +395,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
@@ -368,6 +407,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -380,6 +420,7 @@
         <state relative-caret-position="144">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
+            <element signature="method#Player#0;class#Player#0" />
             <element signature="method#toString#0;class#Player#0" />
           </folding>
         </state>
@@ -404,6 +445,7 @@
         <state relative-caret-position="144">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -419,9 +461,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
@@ -433,6 +473,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -445,6 +486,7 @@
         <state relative-caret-position="144">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
+            <element signature="method#Player#0;class#Player#0" />
             <element signature="method#toString#0;class#Player#0" />
           </folding>
         </state>
@@ -469,6 +511,7 @@
         <state relative-caret-position="144">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -483,9 +526,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
@@ -497,6 +538,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -523,6 +565,7 @@
         <state relative-caret-position="320">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -538,9 +581,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
@@ -552,6 +593,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -585,6 +627,7 @@
         <state relative-caret-position="992">
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -600,6 +643,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -626,6 +670,7 @@
         <state relative-caret-position="208">
           <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -655,6 +700,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -667,6 +713,7 @@
         <state relative-caret-position="80">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -703,6 +750,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
             <element signature="method#validatePlayerName#0;class#InputController#0" />
             <element signature="method#validateColumnInput#0;class#InputController#0" />
             <element signature="method#readLine#0;class#InputController#0" />
@@ -781,20 +829,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe 1/IPlayboardAction.java" />
-    <entry file="file://$PROJECT_DIR$/Aufgabe 1/InputController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getPlayers#0;class#InputController#0" />
-            <element signature="method#validatePlayerName#0;class#InputController#0" />
-            <element signature="method#validateColumnInput#0;class#InputController#0" />
-            <element signature="method#readLine#0;class#InputController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe 1/ColumnFullException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -808,6 +842,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aufgabe 1/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="method#Player#0;class#Player#0" />
+            <element signature="method#toString#0;class#Player#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aufgabe 1/InputController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getPlayers#0;class#InputController#0" />
+            <element signature="method#getColumnInput#0;class#InputController#0" />
+            <element signature="method#validatePlayerName#0;class#InputController#0" />
+            <element signature="method#validateColumnInput#0;class#InputController#0" />
+            <element signature="method#readLine#0;class#InputController#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -825,28 +885,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aufgabe 1/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="method#toString#0;class#Player#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aufgabe 1/Token.java">
+    <entry file="file://$PROJECT_DIR$/Aufgabe 1/TokenPlace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe 1/Playboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="144">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
+            <element signature="method#Playboard#0;class#Playboard#0" />
             <element signature="method#addToken#0;class#Playboard#0" />
             <element signature="method#reset#0;class#Playboard#0" />
             <element signature="method#toString#0;class#Playboard#0" />
@@ -855,19 +906,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aufgabe 1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aufgabe 1/IncrementalWinDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        <state relative-caret-position="309">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#WinCondition#0;class#IncrementalWinDetector#0" />
-            <element signature="method#AddToken#0;class#IncrementalWinDetector#0" />
             <element signature="method#checkWin#0;class#IncrementalWinDetector#0" />
-            <element signature="method#checkDiagonalWin#0;class#IncrementalWinDetector#0" />
           </folding>
         </state>
       </provider>
