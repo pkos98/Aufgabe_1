@@ -1,5 +1,5 @@
 public class Player {
-
+// Neuer kommentar
     private char tokenChar;
     private String name;
     private int highScore;
